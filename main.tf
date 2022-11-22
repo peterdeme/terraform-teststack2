@@ -1,5 +1,4 @@
-resource "random_string" "random" {
-  length           = 30
-  special          = true
-  override_special = "/@£$"
+module "testmodule" {
+  source  = "spacelift.io/peterdeme/testmodule/default"
+  version = "0.4.0"
 }
