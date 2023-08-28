@@ -1,5 +1,9 @@
-resource "random_string" "random" {
-  length           = 34
-  special          = true
-  override_special = "/@£$"
+resource "random_pet" "pet2" {
+  length = 5
+}
+
+
+output "maybeint" {
+  value     = random_pet.pet2.id
+  sensitive = false
 }
