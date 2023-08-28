@@ -3,7 +3,7 @@ resource "random_pet" "pet2" {
 }
 
 
-output "maybeint" {
+output "output" {
   value     = random_pet.pet2.id
   sensitive = false
 }
