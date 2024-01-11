@@ -1,5 +1,9 @@
-resource "random_pet" "pet2" {
-  length = 7
+resource "random_pet" "pet4" {
+  length = 9
+}
+
+resource "random_pet" "pet3" {
+  length = 10
 }
 
 
