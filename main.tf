@@ -1,13 +1,13 @@
 resource "random_pet" "pet1" {
-  length = 8
+  length = 5
 }
 
 resource "random_pet" "pet2" {
-  length = 8
+  length = 5
 }
 
 resource "random_pet" "pet3" {
-  length = 8
+  length = 5
 }
 
 output "output" {
