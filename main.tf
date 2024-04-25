@@ -7,7 +7,7 @@ resource "random_pet" "pet2" {
 }
 
 resource "random_pet" "pet3" {
-  length = 6
+  length = 5
 }
 
 output "output" {
