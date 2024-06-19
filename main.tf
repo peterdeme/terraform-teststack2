@@ -14,3 +14,4 @@ output "output" {
   value     = random_pet.pet1.id
   sensitive = false
 }
+
