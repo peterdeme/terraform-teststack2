@@ -24,7 +24,7 @@ jobs:
           # You will want to replace this endpoint (and the audience) with your
           # own Spacelift account's endpoint.
           SPACELIFT_API_KEY_ENDPOINT: https://onprem.spacelift.sh
-          SPACELIFT_API_KEY_ID: oidc::onprem.spacelift.sh::01JVMNCBQY63BP4Q83DY5H0HVE
+          SPACELIFT_API_KEY_ID: oidc::onprem.spacelift.sh::01JVPNXDNDHHMHWA1FAD4N8B11
           SPACELIFT_API_KEY_SECRET: ${{ env.OIDC_TOKEN }}
         run: |
           spacectl whoami
